@@ -22,6 +22,7 @@ import java.util.List;
 public class RNInvokeApp extends ReactContextBaseJavaModule {
 
     private static ReactApplicationContext reactContext;
+    private static final String REACT_MODULE_NAME = "InvokeApp";
     public static final String LOG_TAG = "RNInvokeApp";
     private static Bundle bundle = null;
 
